@@ -1,0 +1,214 @@
+.card {
+  width: 442px;
+  padding: 24px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  background-color: var(--white-0);
+}
+
+.cardHeader {
+  display: flex;
+  padding-bottom: 22px;
+  gap: 10px;
+  border-bottom: solid 1px #d8d8d8;
+}
+
+.facultyLogo {
+  width: 80px;
+  height: 86px;
+  padding: 0 0 1px;
+  object-fit: contain;
+}
+
+.facultyInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.facultyAndBranch {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.facultyNameWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.facultyName {
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff5a5a;
+}
+
+.favoriteLogo {
+  width: 22px;
+  height: 19px;
+}
+
+.branchName {
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9b9b9b;
+}
+
+.universityName {
+  font-size: 20px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9b9b9b;
+}
+
+.cardMiddle {
+  padding: 18px 0px;
+}
+
+.admissionInfo {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.admissionRoundText {
+  font-size: 20px;
+  font-weight: 300;
+  color: #5f5f5f;
+}
+
+.admissionRounds {
+  display: flex;
+  gap: 8px;
+}
+
+.admissionRound {
+  width: 29px;
+  height: 29px;
+  border-radius: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 18.4px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.admissionRoundOpened {
+  background-color: #2ecc71;
+}
+
+.admissionRoundClosed {
+  background-color: #c4c4c4;
+}
+
+.scoreInfo {
+  margin-top: 21px;
+}
+
+.scoreInfoHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 21px;
+}
+
+.admissionRound4Text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff5a5a;
+}
+
+.editScoreButton {
+  width: 120px;
+  height: 35px;
+  padding: 7px 20px;
+  border-radius: 17.5px;
+  border: solid 1px #ff5a5a;
+  color: #ff5a5a;
+  background-color: transparent;
+
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.myScore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.scoreLogo {
+  width: 27px;
+  height: 35px;
+  margin-left: 27px;
+}
+
+.scoreTextWrapper {
+  text-align: right;
+}
+
+.scoreText {
+  font-size: 12px;
+  font-weight: 300;
+  color: #4a4a4a;
+}
+
+.scoreNumber {
+  font-size: 42px;
+  font-weight: 300;
+  color: #4a4a4a;
+}
+
+.globalScore {
+  display: flex;
+  align-items: center;
+}
+
+.globalScoreColumn {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  flex: 1;
+}
+
+.globalScoreNumber {
+  font-size: 23px;
+  font-weight: 400;
+  color: #4a4a4a;
+}
+
+.globalScoreText {
+  font-size: 14px;
+  font-weight: 300;
+  color: #4a4a4a;
+}
+
+.dividedLineScore {
+  width: 1px;
+  height: 29px;
+  background-color: #d8d8d8;;
+}
