@@ -43,6 +43,7 @@ export function AdmissionCard({ data }: AdmissionCardProps) {
           <div className={styles.admissionRounds}>
             {data.roundSeats.map((seat, i) => (
               <div
+                key={i}
                 className={`${styles.admissionRound} ${
                   seat !== -1
                     ? styles.admissionRoundOpened
